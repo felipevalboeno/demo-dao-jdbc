@@ -56,9 +56,8 @@ public class DB {
 				throw new DbException(e.getMessage());
 			}
 		}
-		
 	}
-	
+
 	public static void closeResultSet(ResultSet rs) {
 		if (rs != null) {
 			try {
@@ -67,6 +66,5 @@ public class DB {
 				throw new DbException(e.getMessage());
 			}
 		}
-		
 	}
 }
